@@ -25,7 +25,6 @@
 [![React](https://img.shields.io/badge/react%20-%2320232a?&style=flat&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![Vue](https://img.shields.io/badge/vue-35495E?&style=flat&logo=vue.js&logoColor=%4FC08D)](https://vuejs.org/)
 [![Docker](https://img.shields.io/badge/docker%20-%230db7ed?&style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Tensorflow](https://img.shields.io/badge/tensorflow%20-orange?&style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Mysql](https://img.shields.io/badge/mysql-grey?&style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Mongodb](https://img.shields.io/badge/mongodb-yellowgreen?&style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Git](https://img.shields.io/badge/git%20-%23F05033?&style=flat&logo=git&logoColor=white)](https://git-scm.com/)
