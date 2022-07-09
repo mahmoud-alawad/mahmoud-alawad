@@ -31,9 +31,8 @@
 [![Git](https://img.shields.io/badge/git%20-%23F05033?&style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![Github](https://img.shields.io/badge/github-grey?&style=flat&logo=github&logoColor=white)](https://github.com)
 [![Gitlab](https://img.shields.io/badge/gitlab-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://about.gitlab.com/)
-[[![Roots](https://img.shields.io/badge/Roots-wp%20theme-blue)](https://roots.io/)
-](https://img.shields.io/endpoint?color=blue&label=Roots&logo=roots&logoColor=blue)[[![Wordpress](https://img.shields.io/badge/Wordpress-grey?&style=flat&logo=github&logoColor=white)](https://wordpress.org/)
-](https://img.shields.io/endpoint?label=Wordpress&logo=Wordpress)
+
+[[![Wordpress](https://img.shields.io/badge/Wordpress-grey?&style=flat&logo=github&logoColor=white)](https://wordpress.org/)](https://img.shields.io/endpoint?label=Wordpress&logo=Wordpress)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mahmoud-alawad&show_icons=true)
