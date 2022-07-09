@@ -31,9 +31,8 @@
 [![Git](https://img.shields.io/badge/git%20-%23F05033?&style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![Github](https://img.shields.io/badge/github-grey?&style=flat&logo=github&logoColor=white)](https://github.com)
 [![Gitlab](https://img.shields.io/badge/gitlab-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://about.gitlab.com/)
-[![Sage](https://img.shields.io/badge/sage-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://roots.io/)
+[![Roots](https://img.shields.io/badge/sage-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://roots.io/)
 
-[![Sage]([https://img.shields.io/badge/gitlab-blueviolet?&style=flat&logo=gitlab&logoColor=orange](https://camo.githubusercontent.com/5f0b97ec47b3b185d642826e44b3750209c464c90e610372f55e5356e639c6c0/68747470733a2f2f63646e2e726f6f74732e696f2f6170702f75706c6f6164732f6c6f676f2d736167652e737667))](https://docs.roots.io/sage)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mahmoud-alawad&show_icons=true)
