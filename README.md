@@ -31,7 +31,7 @@
 [![Git](https://img.shields.io/badge/git%20-%23F05033?&style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![Github](https://img.shields.io/badge/github-grey?&style=flat&logo=github&logoColor=white)](https://github.com)
 [![Gitlab](https://img.shields.io/badge/gitlab-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://about.gitlab.com/)
-[![Roots](https://img.shields.io/badge/sage-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://roots.io/)
+[![Roots]()](https://roots.io/)
 
 
 
