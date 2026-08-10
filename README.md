@@ -22,8 +22,10 @@
 [![Php](https://img.shields.io/badge/php%20-%23007BCA?&style=flat&logo=php&logoColor=white)](https://www.php.net/)
 [![Express](https://img.shields.io/badge/express-green?&style=flat&logo=express&logoColor=white)](https://expressjs.com/)
 [![Laravel](https://img.shields.io/badge/laravel-35495E?&style=flat&logo=laravel&ogoColor=white)](https://www.laravel.com/)
+[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)](https://wordpress.org/)
 [![React](https://img.shields.io/badge/react%20-%2320232a?&style=flat&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![Vue](https://img.shields.io/badge/vue-35495E?&style=flat&logo=vue.js&logoColor=%4FC08D)](https://vuejs.org/)
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.dev/)
 [![Docker](https://img.shields.io/badge/docker%20-%230db7ed?&style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Mysql](https://img.shields.io/badge/mysql-grey?&style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Mongodb](https://img.shields.io/badge/mongodb-yellowgreen?&style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
@@ -32,8 +34,5 @@
 [![Gitlab](https://img.shields.io/badge/gitlab-blueviolet?&style=flat&logo=gitlab&logoColor=orange)](https://about.gitlab.com/)
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mahmoud-alawad&show_icons=true)
 
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoud-alawad&layout=compact)](https://github.com/mahmoud-alawad/github-readme-stats)
