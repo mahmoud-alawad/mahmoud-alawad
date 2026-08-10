@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 90,
+  "tabWidth": 2
+}

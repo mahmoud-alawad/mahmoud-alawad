@@ -1,0 +1,154 @@
+@use 'sass:math';
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-inline: math.div($gutter, 2);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.container-xl {
+  width: 100%;
+  padding-inline: math.div($gutter, 2);
+  margin-inline: auto;
+  box-sizing: border-box;
+
+  @include media-up(xl) {
+    max-width: 1600px;
+  }
+}
+
+@each $breakpoint, $max-width in $container-max-widths {
+  .container {
+    @include media-up($breakpoint) {
+      max-width: $max-width;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: math.div($gutter, -2);
+}
+
+[class*='col'] {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding-inline: math.div($gutter, 2);
+}
+
+.col {
+  flex: 1 0 0;
+}
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    flex: 0 0 math.percentage(math.div($i, $grid-columns));
+    max-width: math.percentage(math.div($i, $grid-columns));
+  }
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include media-up($breakpoint) {
+    .col-#{$breakpoint} {
+      flex: 1 0 0;
+    }
+
+    @for $i from 1 through $grid-columns {
+      .col-#{$breakpoint}-#{$i} {
+        flex: 0 0 math.percentage(math.div($i, $grid-columns));
+        max-width: math.percentage(math.div($i, $grid-columns));
+      }
+    }
+  }
+}
+
+@for $i from 1 through ($grid-columns - 1) {
+  .offset-#{$i} {
+    margin-left: math.percentage(math.div($i, $grid-columns));
+  }
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include media-up($breakpoint) {
+    @for $i from 1 through ($grid-columns - 1) {
+      .offset-#{$breakpoint}-#{$i} {
+        margin-left: math.percentage(math.div($i, $grid-columns));
+      }
+    }
+  }
+}
+
+@each $key, $value in $gutters {
+  .gx-#{$key} {
+    > * {
+      padding-inline: math.div($value, 2);
+    }
+  }
+
+  .gy-#{$key} {
+    > * {
+      padding-block: math.div($value, 2);
+    }
+  }
+
+  .g-#{$key} {
+    > * {
+      padding: math.div($value, 2);
+    }
+  }
+}
+
+@each $key, $space in $spacers {
+  .m-#{$key} {
+    margin: $space;
+  }
+  .mt-#{$key} {
+    margin-top: $space;
+  }
+  .mb-#{$key} {
+    margin-bottom: $space;
+  }
+  .ml-#{$key} {
+    margin-left: $space;
+  }
+  .mr-#{$key} {
+    margin-right: $space;
+  }
+  .mx-#{$key} {
+    margin-left: $space;
+    margin-right: $space;
+  }
+  .my-#{$key} {
+    margin-top: $space;
+    margin-bottom: $space;
+  }
+
+  .p-#{$key} {
+    padding: $space;
+  }
+  .pt-#{$key} {
+    padding-top: $space;
+  }
+  .pb-#{$key} {
+    padding-bottom: $space;
+  }
+  .pl-#{$key} {
+    padding-left: $space;
+  }
+  .pr-#{$key} {
+    padding-right: $space;
+  }
+  .px-#{$key} {
+    padding-left: $space;
+    padding-right: $space;
+  }
+  .py-#{$key} {
+    padding-top: $space;
+    padding-bottom: $space;
+  }
+}
